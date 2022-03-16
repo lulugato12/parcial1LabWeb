@@ -1,5 +1,6 @@
 import React from 'react'
 
+<<<<<<< HEAD
 import Header from '../misc/Header'
 
 const Home = () => {
@@ -11,3 +12,18 @@ const Home = () => {
 }
 
 export default Home;
+=======
+const Home = () => {
+    return (
+        <h3>Home</h3>
+    )
+}
+
+export default Home;
+
+/*
+            <Pricing />
+            <Testimonials />
+
+*/
+>>>>>>> Master

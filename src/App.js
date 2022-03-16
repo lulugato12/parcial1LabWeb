@@ -4,6 +4,7 @@ import {
   Routes,
   Route
 } from 'react-router-dom'
+<<<<<<< HEAD
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 import Layout from './layout/Layout'
@@ -19,6 +20,18 @@ function App() {
           <Routes>
             <Route path={'/LogIn'} component={LogIn}></Route>
             <Route path={'/SignUp'} component={SignUp}></Route>
+=======
+
+import Layout from './layout/Layout'
+import Home from './components/pages/Home'
+
+function App() {
+  return (
+    <div className="body-wrap">
+      <Router>
+        <Layout>
+          <Routes>
+>>>>>>> Master
             <Route path={'/'} component={Home}></Route>
           </Routes>
         </Layout>
