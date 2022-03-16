@@ -5,19 +5,19 @@ const LogIn = () => {
         <React.Fragment>
             <section className="content-container">
                 <form>
-                    <h2 className="search-space">Sign in</h2>
+                    <h2 className="form-spacing">Sign in</h2>
 
-                    <div className="form-group search-space">
+                    <div className="form-group form-spacing">
                         <label>Email</label>
                         <input type="email" className="form-control" placeholder="Enter email" />
                     </div>
 
-                    <div className="form-group search-space">
+                    <div className="form-group form-spacing">
                         <label>Password</label>
                         <input type="password" className="form-control" placeholder="Enter password" />
                     </div>
 
-                    <div className="form-group search-space">
+                    <div className="form-group form-spacing">
                         <div className="custom-control custom-checkbox">
                             <input type="checkbox" className="custom-control-input" id="customCheck1" />
                             <label className="custom-control-label" htmlFor="customCheck1">Remember me</label>

@@ -2,7 +2,8 @@ header{
     color: white;
     background: #37387a;
     min-height: 50vh;
-    padding-top: 20vh;
+    padding-top: 33vh;
+    padding-bottom: 33vh;
     text-align: center;
     position: relative;
     z-index: 1;
@@ -25,4 +26,17 @@ header h2{
 
 header a{
     color: #ffff;
+}
+
+.header-title {
+    text-transform: uppercase;
+}
+
+.btn-block {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.search-button {
+    margin-left: -55px;
 }

@@ -31,7 +31,7 @@ const MenuBar = () => {
                     </li>
                 </ul>
 
-                <p>&copy; Your Name/Company. All rights reserved.</p>
+                <p>&copy; ConnectIT. All rights reserved.</p>
             </div>
         </footer>
     )
