@@ -1,15 +1,13 @@
 import React from 'react'
 
+import Header from '../misc/Header'
+
 const Home = () => {
     return (
-        <h3>Home</h3>
+        <React.Fragment>
+            <Header />
+        </React.Fragment>
     )
 }
 
 export default Home;
-
-/*
-            <Pricing />
-            <Testimonials />
-
-*/

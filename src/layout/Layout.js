@@ -4,7 +4,7 @@ import Footer from '../components/navigations/Footer'
 
 import './Layout.css'
 
-function Layout(props) {
+const Layout = (props) => {
     return(
         <React.Fragment>
             <MenuBar />
