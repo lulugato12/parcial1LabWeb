@@ -1,7 +1,7 @@
 import React from 'react'
 import {
   BrowserRouter as Router, 
-  Switch,
+  Routes,
   Route
 } from 'react-router-dom'
 
@@ -17,11 +17,11 @@ function App() {
     <div className="body-wrap">
       <Router>
         <Layout>
-          <Switch>
+          <Routes>
             <Route path={'/LogIn'} component={LogIn}></Route>
             <Route path={'/SignUp'} component={SignUp}></Route>
             <Route path={'/'} component={Home}></Route>
-          </Switch>
+          </Routes>
         </Layout>
       </Router>
     </div>
